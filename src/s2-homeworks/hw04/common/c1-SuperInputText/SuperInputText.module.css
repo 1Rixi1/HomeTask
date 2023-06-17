@@ -2,19 +2,35 @@
 }
 
 .input {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  height: 36px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .inputWrapper {
+  width: 372px;
 }
 
 .superInput {
 }
 
 .errorInput {
+  border: 1px solid #cc1439;
+  border-radius: 5px;
+  position: relative;
 }
 
 .errorInput:focus {
 }
 
 .error {
+  color: #cc1439;
+  position: absolute;
+  left: 0;
+  bottom: 164px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
